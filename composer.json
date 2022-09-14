@@ -12,10 +12,16 @@
     "config": {
         "sort-packages": true
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/whyisjake/facebook-instant-articles-sdk-php"
+        }
+    ],
     "require": {
-	"doctrine/instantiator": "<=1.0.5",
-        "php": "^5.4 || ^7.0",
-        "facebook/facebook-instant-articles-sdk-php": "^1.8.3"
+	"doctrine/instantiator": "1.4.1",
+        "php": "^5.4 || ^7.0 || ^8.0",
+        "facebook/facebook-instant-articles-sdk-php": "dev-php8"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8",
