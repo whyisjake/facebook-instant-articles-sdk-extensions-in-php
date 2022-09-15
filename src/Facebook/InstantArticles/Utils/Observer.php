@@ -151,9 +151,6 @@ class Observer
             return $value;
         }
 
-        // Uses this to be compatible with PHP < 5.6
-        $args = func_get_args();
-
         // Removes the $tag, since this is not an expected parameter to callbacks.
         array_shift($args);
 
